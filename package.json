@@ -1,0 +1,16 @@
+{
+  "name": "smartshala-backend",
+  "version": "1.0.0",
+  "description": "SmartShala – Backend for branch-wise video lectures & PDF resources",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
