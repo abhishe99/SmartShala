@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartShala - Elevation through Digital Excellence</title>
+    <meta name="description" content="Comprehensive educational platform offering backlog clearing, academic preparation, placement readiness, and tech field development.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-brand">
+                <h1>SmartShala</h1>
+                <image  class="photu"   src="mainlogo.png" alt="yo"></image>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#backlog" class="nav-link" data-section="backlog">Backlog Clearing</a></li>
+                <li><a href="#academic" class="nav-link" data-section="academic">Academic Prep</a></li>
+                <li><a href="#placement" class="nav-link" data-section="placement">Placement Prep</a></li>
+                <li><a href="#tech" class="nav-link" data-section="tech">Tech Field</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Clear Your Backlog Section -->
+        <section id="backlog" class="section backlog-section">
+            <div class="section-content">
+                <h2 class="section-title">Clear Your Backlog</h2>
+                <p class="section-subtitle">Master the fundamentals and clear your academic backlogs with structured guidance</p>
+                
+                <div class="roadmaps-grid">
+                    <div class="roadmap-card" onclick="window.location.href='/branch/electronics'" style="cursor:pointer;">
+                        <div class="card-header">
+                            <h3>Electronics Engineering</h3>
+                            <span class="difficulty" display="hidden"></span>
+                        </div>
+                        <div class="card-content">
+                            <p>Complete syllabus cover of all years</p>
+                            <p style="margin-top:8px;font-size:13px;color:#6366f1;">📺 Videos &amp; PDFs →</p>
+                        </div>
+                    </div>
+
+                    <div class="roadmap-card" onclick="window.location.href='/branch/cse'" style="cursor:pointer;">
+                        <div class="card-header">
+                            <h3>Cse/It</h3>
+                            <span class="difficulty" display="none"></span>
+                        </div>
+                        <div class="card-content">
+                            <p>Complete syllabus cover of all years</p>
+                            <p style="margin-top:8px;font-size:13px;color:#6366f1;">📺 Videos &amp; PDFs →</p>
+                        </div>
+                    </div>
+
+                    <div class="roadmap-card" onclick="window.location.href='/branch/electrical'" style="cursor:pointer;">
+                        <div class="card-header">
+                            <h3>Electrical Engineering</h3>
+                            <span class="difficulty" display="none"> </span>
+                        </div>
+                        <div class="card-content"  >
+                            <p>Complete syllabus cover of all years</p>
+                            <p style="margin-top:8px;font-size:13px;color:#10b981;">📺 Videos &amp; PDFs →</p>
+                        </div>
+                    </div>
+
+                   
+                </div>
+
+                <div class="section-footer">
+                    <h3>Previous Year Questions</h3>
+                    <div class="pyq-tabs">
+                        <button class="tab-btn active" data-tab="sem1">Semester 1</button>
+                        <button class="tab-btn" data-tab="sem2">Semester 2</button>
+                        <button class="tab-btn" data-tab="sem3">Semester 3</button>
+                    </div>
+                    <div class="tab-content active" data-tab="sem1">
+                        <ul class="pyq-list">
+                            <li>Engineering Mathematics - 2022</li>
+                            <li>Engineering Mathematics - 2021</li>
+                            <li>Programming - 2022</li>
+                            <li>Programming - 2021</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" data-tab="sem2">
+                        <ul class="pyq-list">
+                            <li>Data Structures - 2022</li>
+                            <li>Data Structures - 2021</li>
+                            <li>Database - 2022</li>
+                            <li>Database - 2021</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" data-tab="sem3">
+                        <ul class="pyq-list">
+                            <li>Algorithms - 2022</li>
+                            <li>Algorithms - 2021</li>
+                            <li>Web Dev - 2022</li>
+                            <li>Web Dev - 2021</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Academic Preparation Section -->
+        <section id="academic" class="section academic-section">
+            <div class="section-content">
+                <h2 class="section-title">Academic Preparation</h2>
+                <p class="section-subtitle">Structured learning resources for every subject and semester</p>
+
+                <div class="subjects-container">
+                    <div class="subject-filter">
+                        <button class="filter-btn active" data-filter="all">All Subjects</button>
+                        <button class="filter-btn" data-filter="core">Core Subjects</button>
+                        <button class="filter-btn" data-filter="elective">Electives</button>
+                    </div>
+
+                    <div class="subjects-grid">
+                        <div class="subject-card" data-filter="core">
+                            <h3>Data Structures & Algorithms</h3>
+                            <p>Master DSA with comprehensive tutorials and practice problems</p>
+                            <div class="subject-stats">
+                                <span>📚 50+ Resources</span>
+                                <span>⏱️ 40 Hours</span>
+                            </div>
+                        </div>
+
+                        <div class="subject-card" data-filter="core">
+                            <h3>Operating Systems</h3>
+                            <p>Learn processes, threads, memory management, and file systems</p>
+                            <div class="subject-stats">
+                                <span>📚 45+ Resources</span>
+                                <span>⏱️ 35 Hours</span>
+                            </div>
+                        </div>
+
+                        <div class="subject-card" data-filter="core">
+                            <h3>Database Management Systems</h3>
+                            <p>SQL, NoSQL, normalization, and database design patterns</p>
+                            <div class="subject-stats">
+                                <span>📚 40+ Resources</span>
+                                <span>⏱️ 30 Hours</span>
+                            </div>
+                        </div>
+
+                        <div class="subject-card" data-filter="elective">
+                            <h3>Web Development</h3>
+                            <p>Frontend and backend development with modern frameworks</p>
+                            <div class="subject-stats">
+                                <span>📚  60+ Resources</span>
+                                <span>⏱️ 50 Hours</span>
+                            </div>
+                        </div>
+
+                        <div class="subject-card" data-filter="elective">
+                            <h3>Machine Learning</h3>
+                            <p>Algorithms, neural networks, and real-world applications</p>
+                            <div class="subject-stats">
+                                <span>📚  55+ Resources</span>
+                                <span>⏱️ 45 Hours</span>
+                            </div>
+                        </div>
+
+                        <div class="subject-card" data-filter="core">
+                            <h3>Networking</h3>
+                            <p>OSI model, TCP/IP, and network protocols</p>
+                            <div class="subject-stats">
+                                <span>📚  38+ Resources</span>
+                                <span>⏱️ 28 Hours</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="study-schedule">
+                    <h3>Daily Study Schedule</h3>
+                    <div class="schedule-item">
+                        <span class="time">6:00 AM - 7:00 AM</span>
+                        <span class="activity">Morning Revision</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 100%"></div>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <span class="time">7:00 AM - 9:00 AM</span>
+                        <span class="activity">Core Learning</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <span class="time">9:00 AM - 12:00 PM</span>
+                        <span class="activity">Problem Solving</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <span class="time">2:00 PM - 5:00 PM</span>
+                        <span class="activity">Practice & Projects</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 60%"></div>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <span class="time">6:00 PM - 7:30 PM</span>
+                        <span class="activity">Doubt Clearing</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 40%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Placement Preparation Section -->
+        <section id="placement" class="section placement-section">
+            <div class="section-content">
+                <h2 class="section-title">Placement Preparation</h2>
+                <p class="section-subtitle">Get placement-ready with comprehensive guidance and resources</p>
+
+                <div class="placement-progress">
+                    <h3>Your Placement Readiness</h3>
+                    <div class="progress-tracker">
+                        <input type="range" min="0" max="100" value="65" class="progress-slider" id="readinessSlider">
+                        <div class="progress-percentage" id="progressPercentage">65%</div>
+                    </div>
+                    <p class="progress-text">Keep working towards 100% placement readiness!</p>
+                </div>
+
+                <div class="placement-grid">
+                    <div class="placement-card">
+                        <h3>Aptitude</h3>
+                        <ul>
+                            <li>Quantitative Aptitude</li>
+                            <li>Logical Reasoning</li>
+                            <li>Verbal Ability</li>
+                            <li>Data Interpretation</li>
+                        </ul>
+                    </div>
+
+                    <div class="placement-card">
+                        <h3>Technical Interview</h3>
+                        <ul>
+                            <li>Data Structures</li>
+                            <li>Algorithms</li>
+                            <li>System Design</li>
+                            <li>Database Questions</li>
+                        </ul>
+                    </div>
+
+                    <div class="placement-card">
+                        <h3>HR & Soft Skills</h3>
+                        <ul>
+                            <li>Resume Building</li>
+                            <li>HR Interview Tips</li>
+                            <li>Communication Skills</li>
+                            <li>Negotiation</li>
+                        </ul>
+                    </div>
+
+                    <div class="placement-card">
+                        <h3>Company Specific</h3>
+                        <ul>
+                            <li>FAANG Questions</li>
+                            <li>Product-based Companies</li>
+                            <li>Service-based Companies</li>
+                            <li>Startup Questions</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="resources-section">
+                    <h3>Interview Question Bank</h3>
+                    <div class="question-types">
+                        <div class="question-type">
+                            <h4>Top 100 DSA Questions</h4>
+                            <p>Most frequently asked data structure and algorithm problems</p>
+                            <span class="question-count">100 Questions</span>
+                        </div>
+                        <div class="question-type">
+                            <h4>System Design Questions</h4>
+                            <p>Design scalable systems and architecture patterns</p>
+                            <span class="question-count">25 Questions</span>
+                        </div>
+                        <div class="question-type">
+                            <h4>Behavioral Questions</h4>
+                            <p>Ace your behavioral interview rounds</p>
+                            <span class="question-count">50 Questions</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tech Field Preparation Section -->
+        <section id="tech" class="section tech-section">
+            <div class="section-content">
+                <h2 class="section-title">Tech Field Preparation</h2>
+                <p class="section-subtitle">Master in-demand technologies and build real-world projects</p>
+
+                <div class="career-roadmaps">
+                    <div class="career-card">
+                        <h3>Web Development</h3>
+                        <p>Build modern web applications with React, Node.js, and databases</p>
+                        <div class="roadmap-steps">
+                            <div class="step">
+                                <span class="step-number">1</span>
+                                <span class="step-title">HTML, CSS, JavaScript</span>
+                            </div>
+                            <div class="step">
+                                <span class="step-number">2</span>
+                                <span class="step-title">Frontend Frameworks (React)</span>
+                            </div>
+                            <div class="step">
+                                <span class="step-number">3</span>
+                                <span class="step-title">Backend Development (Node.js)</span>
+                            </div>
+                            <div class="step">
+                                <span class="step-number">4</span>
+                                <span class="step-title">Databases & APIs</span>
+                            </div>
+                            <div class="step">
+                                <span class="step-number">5</span>
+                                <span class="step-title">Deploy & DevOps</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="career-card">
+                        <h3>Mobile Development</h3>
+                        <p>Create native and cross-platform mobile applications</p>
+                        <div class="roadmap-steps">
+                            <div class="step">
+                                <span class="step-number">1</span>
+                                <span class="step-title">Mobile Fundamentals</span>
+                            </div>
+                            <div class="step">
+                                <span class="step-number">2</span>
+                                <span class="step-title">Android Development</span>
+                            </div>
+                            <div class="step">
+                                <span class="step-number">3</span>
+                                <span class="step-title">iOS Development</span>
+                            </div>
+                            <div class="step">
+                                <span class="step-number">4</span>
+                                <span class="step-title">Cross-platform (React Native)</span>
+                            </div>
+                            <div class="step">
+                                <span class="step-number">5</span>
+                                <span class="step-title">App Publishing</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="career-card">
+                        <h3>Data Science & AI</h3>
+                        <p>Master machine learning, data analysis, and AI technologies</p>
+                        <div class="roadmap-steps">
+                            <div class="step">
+                                <span class="step-number">1</span>
+                                <span class="step-title">Python & Math Basics</span>
+                            </div>
+                            <div class="step">
+                                <span class="step-number">2</span>
+                                <span class="step-title">Data Manipulation</span>
+                            </div>
+                            <div class="step">
+                                <span class="step-number">3</span>
+                                <span class="step-title">Machine Learning</span>
+                            </div>
+                            <div class="step">
+                                <span class="step-number">4</span>
+                                <span class="step-title">Deep Learning</span>
+                            </div>
+                            <div class="step">
+                                <span class="step-number">5</span>
+                                <span class="step-title">NLP & Computer Vision</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="career-card">
+                        <h3>Cloud & DevOps</h3>
+                        <p>Deploy and manage applications on cloud platforms</p>
+                        <div class="roadmap-steps">
+                            <div class="step">
+                                <span class="step-number">1</span>
+                                <span class="step-title">Linux & System Admin</span>
+                            </div>
+                            <div class="step">
+                                <span class="step-number">2</span>
+                                <span class="step-title">Docker & Containerization</span>
+                            </div>
+                            <div class="step">
+                                <span class="step-number">3</span>
+                                <span class="step-title">Kubernetes Orchestration</span>
+                            </div>
+                            <div class="step">
+                                <span class="step-number">4</span>
+                                <span class="step-title">Cloud Platforms (AWS/Azure/GCP)</span>
+                            </div>
+                            <div class="step">
+                                <span class="step-number">5</span>
+                                <span class="step-title">CI/CD Pipeline</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="platforms-section">
+                    <h3>Recommended Learning Platforms</h3>
+                    <div class="platforms-list">
+                        <div class="platform-item">
+                            <span class="platform-name">LeetCode</span>
+                            <p>Practice coding problems and ace technical interviews</p>
+                        </div>
+                        <div class="platform-item">
+                            <span class="platform-name">HackerRank</span>
+                            <p>Solve challenges and improve problem-solving skills</p>
+                        </div>
+                        <div class="platform-item">
+                            <span class="platform-name">GitHub</span>
+                            <p>Showcase your projects and collaborate with others</p>
+                        </div>
+                        <div class="platform-item">
+                            <span class="platform-name">Coursera</span>
+                            <p>Learn from top universities and industry experts</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-showcase">
+                    <h3>Project Ideas</h3>
+                    <ul class="projects-list">
+                        <li>Build a full-stack e-commerce platform</li>
+                        <li>Create a social media application</li>
+                        <li>Develop a real-time chat application</li>
+                        <li>Build a machine learning recommendation system</li>
+                        <li>Create a cloud-based project management tool</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>SmartShala</h3>
+                    <p>Elevating Higher Education Through Digital Excellence</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Sections</h4>
+                    <ul>
+                        <li><a href="#backlog">Backlog Clearing</a></li>
+                        <li><a href="#academic">Academic Prep</a></li>
+                        <li><a href="#placement">Placement Prep</a></li>
+                        <li><a href="#tech">Tech Field</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#"> Yotube lectures and our own lectures too..</a></li>
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li><a href="/cdn-cgi/l/email-protection#671412171708151327140a061513140f060b064904080a">support: <span class="__cf_email__" data-cfemail="8eeffabeb8bdbeb9cee9e3efe7e2a0ede1e3">[email&#160;protected]</span></a></li>
+                        <li>Available 24/7</li>
+                        <li><a href="#">WhatsApp Support</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 SmartShala. All rights reserved.</p>
+                <p>Made with ❤️ for
